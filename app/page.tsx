@@ -10,6 +10,7 @@ import StatCard from "@/components/stat-card"
 
 import ServicesSection from "@/components/services-section"
 import Footer from "./footer/page"
+import InsuranceLogos from "@/components/InsuranceLogos"
 
 export default function Home() {
   return (
@@ -150,54 +151,54 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-5 lg:grid-cols-3 xl:grid-cols-4 lg:gap-6">
-            <DoctorCard
-                         name="Dr. Prashant Singh"
-                         qualifications="M.B.B.S., M.D. (Chest)"
-                         specialty="Heart, Chest, Abdomen, Diabetes, Asthma, Lung Diseases"
-                         imageUrl="/placeholder.svg?key=ko6dm"
-                       />
-                       <DoctorCard
-                         name="Dr. N. K. Pandey"
-                         qualifications="M.B.B.S., M.D. Physician, MPH (USA)"
-                         specialty="Heart, Chest, Abdomen, Diabetes Diseases"
-                         imageUrl="/placeholder.svg?key=ne3oy"
-                       />
-                       <DoctorCard
-                         name="Dr. Ashwani Kumar Mishra"
-                         qualifications="M.B.B.S., M.S. MCH (Neuro Surgeon)"
-                         specialty="Neurologist and Spine Specialist"
-                         imageUrl="/placeholder.svg?key=ne3oy"
-                       />
-                       <DoctorCard
-                         name="Dr. Arpita Shrivastava"
-                         qualifications="M.S. (ENT)"
-                         specialty="Ear, Nose, and Throat (ENT) Specialist"
-                         imageUrl="/placeholder.svg?key=8vdqg"
-                       />
-                       <DoctorCard
-                         name="Dr. Akil Ahmad Ansari"
-                         qualifications="MBBS, MS (General & Laproscopy Surgeon)"
-                         specialty="General and laproscopic surgery"
-                         imageUrl="/placeholder.svg?key=za17p"
-                       />
-                       <DoctorCard
-                         name="Dr. Deepak Tiwari"
-                         qualifications="D.M. Cardio, Interventional Cardiologist"
-                         specialty="Cardiologist"
-                         imageUrl="/placeholder.svg?key=qytxd"
-                       />
-                       <DoctorCard
-                         name="Dr. Shahnavaz Jamal"
-                         qualifications="MBBS(Honors), M.D. (Pediatrics)"
-                         specialty="Neonatologist and Critical Care Specialist"
-                         imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%205"
-                       />
-                       <DoctorCard
-                         name="Dr. Shweta Mishra"
-                         qualifications="M.B.B.S., M.S. (Obs. & Gyne.)"
-                         specialty="Obstetrician-Gynecologist and Pediatrician"
-                         imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20female%202"
-                       />
+          <DoctorCard
+                        name="Dr. N. K. Pandey"
+                        qualifications="M.B.B.S., M.D. (Physician), MPH (USA)"
+                        specialty="Heart, abdomen, chest, diabetes specialist"
+                        imageUrl="/placeholder.svg?key=ko6dm"
+                      />
+                      <DoctorCard
+                        name="Dr. Anisha Shrivastava"
+                        qualifications="M.B.B.S., M.D. Physician, MPH (USA)"
+                        specialty="M.B.B.S., D.Fam. Medicine"
+                        imageUrl="/placeholder.svg?key=ne3oy"
+                      />
+                      <DoctorCard
+                        name="Dr. Tripurari Pandey"
+                        qualifications="M.B.B.S., M.S., M.Ch. (Neuro Surgeon)"
+                        specialty="Brain, epilepsy, seizures, spinal, muscular & nerve specialist"
+                        imageUrl="/placeholder.svg?key=ne3oy"
+                      />
+                      <DoctorCard
+                        name="Dr. Prashant Rajan Gupta"
+                        qualifications="M.B.B.S., M.S., M.Ch. (Urology)"
+                        specialty="General & laparoscopic urology surgeon"
+                        imageUrl="/placeholder.svg?key=8vdqg"
+                      />
+                      <DoctorCard
+                        name="Dr. Akil Ahmad Ansari & Dr. V.B Singh"
+                        qualifications="M.B.B.S., M.S. (General & Laparoscopic Surgeon)"
+                        specialty="General and laparoscopic surgeon"
+                        imageUrl="/placeholder.svg?key=za17p"
+                      />
+                      <DoctorCard
+                        name="Dr. Prashant Singh"
+                        qualifications="M.B.B.S., M.D. (Chest)"
+                        specialty="Heart, abdomen, chest, diabetes, allergy & asthma specialist"
+                        imageUrl="/placeholder.svg?key=qytxd"
+                      />
+                      <DoctorCard
+                        name="Dr. Manish Tiwari"
+                        qualifications="M.S. (Orthopedics)"
+                        specialty="Spine and bone joint specialist"
+                        imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%205"
+                      />
+                      <DoctorCard
+                        name="Dr. Deepak Tiwari"
+                        qualifications="D.M. (Cardiology), Interventional Cardiologist"
+                        specialty="Cardiologist"
+                        imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20female%202"
+                      />
           </div>
 
           <div className="mt-6 text-center sm:mt-8">
@@ -209,6 +210,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <InsuranceLogos/>
 
           {/* Holographic Dashboard
           <div className="mt-6 sm:mt-8 md:mt-10 lg:mt-16">
