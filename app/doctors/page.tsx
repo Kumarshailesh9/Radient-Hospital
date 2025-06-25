@@ -122,7 +122,7 @@ export default function DoctorsPage() {
               imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%2013"
             />
             <DoctorCard
-              name="DDr. Ashutosh Tripathi"
+              name="Dr. Ashutosh Tripathi"
               qualifications="General Physician"
               specialty="General physician"
               imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%2013"

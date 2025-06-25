@@ -41,15 +41,9 @@ export default function ServicesSection() {
                            image="/lab.JPG"
           />
           <ServiceCard
-                       title="Pathology"
-            description="Complete blood count (CBC), ESR, peripheral smear
-                          Blood glucose, HbA1c, lipid profile, renal & liver function tests
-                          Urine analysis (routine, culture & sensitivity)
-                          Stool examination (routine, occult blood, parasites)
-                          Hormone assays (TSH, T3, T4, reproductive hormones)
-                          Coagulation studies (PT, APTT, INR)
-                          Serological tests (HIV, HBsAg, HCV, dengue, malaria, syphilis)"
-                          image="/pathalogy.JPG"
+                       title="Private Room"
+                       description="Our private hospital rooms offer a comfortable, quiet, and personalized environment for patients. Each room is equipped with modern amenities, including an attached bathroom, air conditioning, television, and a visitor chair. Designed for privacy and healing, our private rooms ensure quality care, safety, and a homely atmosphere during recovery."
+                       image="/privateRoom.jpg"
           />
           <ServiceCard
                        title="General Ward"
