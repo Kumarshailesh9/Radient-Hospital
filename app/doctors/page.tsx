@@ -127,6 +127,12 @@ export default function DoctorsPage() {
               specialty="General physician"
               imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%2013"
             />
+            <DoctorCard
+              name="Dr.Anisha Srivastava"
+              qualifications="MBBS.DNB.(Medicine)"
+              specialty="Medicine"
+              imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%2013"
+            />
           </div>
           
         </div>
