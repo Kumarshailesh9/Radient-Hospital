@@ -72,7 +72,7 @@ export default function DoctorsPage() {
             />
             <DoctorCard
               name="Dr. Manish Tiwari"
-              qualifications="M.S. (Orthopedics)"
+              qualifications="M.B.B.S., M.S. (Orthopedics)"
               specialty="Spine and bone joint specialist"
               imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%205"
             />
@@ -85,7 +85,7 @@ export default function DoctorsPage() {
             
             <DoctorCard
               name="Dr. Avinash Singh"
-              qualifications="M.D., D.M. (Gastroenterology)"
+              qualifications="M.D., D.M. (Gastroenterology), Medicine"
               specialty="Stomach, intestine, liver, pancreas specialist"
               imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%207"
             />
@@ -110,7 +110,13 @@ export default function DoctorsPage() {
               imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%2013"
             />
             <DoctorCard
-              name="Dr. Arpit Shrivastava & Dr. Shubhankar Gupta"
+              name="Dr. Arpit Shrivastava"
+              qualifications="M.B.B.S., M.S. (ENT)"
+              specialty="Ear, nose & throat (ENT) specialist"
+              imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%2013"
+            />
+             <DoctorCard
+              name="Dr. Shubhankar Gupta"
               qualifications="M.S. (ENT)"
               specialty="Ear, nose & throat (ENT) specialist"
               imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%2013"

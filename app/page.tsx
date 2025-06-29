@@ -151,54 +151,54 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-5 lg:grid-cols-3 xl:grid-cols-4 lg:gap-6">
-          <DoctorCard
-                        name="Dr. N. K. Pandey"
-                        qualifications="M.B.B.S., M.D. (Physician), MPH (USA)"
-                        specialty="Heart, abdomen, chest, diabetes specialist"
-                        imageUrl="/placeholder.svg?key=ko6dm"
-                      />
-                      <DoctorCard
-                        name="Dr. Anisha Shrivastava"
-                        qualifications="M.B.B.S., M.D. Physician, MPH (USA)"
-                        specialty="M.B.B.S., D.Fam. Medicine"
-                        imageUrl="/placeholder.svg?key=ne3oy"
-                      />
-                      <DoctorCard
-                        name="Dr. Tripurari Pandey"
-                        qualifications="M.B.B.S., M.S., M.Ch. (Neuro Surgeon)"
-                        specialty="Brain, epilepsy, seizures, spinal, muscular & nerve specialist"
-                        imageUrl="/placeholder.svg?key=ne3oy"
-                      />
-                      <DoctorCard
-                        name="Dr. Prashant Rajan Gupta"
-                        qualifications="M.B.B.S., M.S., M.Ch. (Urology)"
-                        specialty="General & laparoscopic urology surgeon"
-                        imageUrl="/placeholder.svg?key=8vdqg"
-                      />
-                      <DoctorCard
-                        name="Dr. Akil Ahmad Ansari & Dr. V.B Singh"
-                        qualifications="M.B.B.S., M.S. (General & Laparoscopic Surgeon)"
-                        specialty="General and laparoscopic surgeon"
-                        imageUrl="/placeholder.svg?key=za17p"
-                      />
-                      <DoctorCard
-                        name="Dr. Prashant Singh"
-                        qualifications="M.B.B.S., M.D. (Chest)"
-                        specialty="Heart, abdomen, chest, diabetes, allergy & asthma specialist"
-                        imageUrl="/placeholder.svg?key=qytxd"
-                      />
-                      <DoctorCard
-                        name="Dr. Manish Tiwari"
-                        qualifications="M.S. (Orthopedics)"
-                        specialty="Spine and bone joint specialist"
-                        imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%205"
-                      />
-                      <DoctorCard
-                        name="Dr. Deepak Tiwari"
-                        qualifications="D.M. (Cardiology), Interventional Cardiologist"
-                        specialty="Cardiologist"
-                        imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20female%202"
-                      />
+         <DoctorCard
+                       name="Dr. N. K. Pandey"
+                       qualifications="M.B.B.S., M.D. (Physician), MPH (USA)"
+                       specialty="Heart, abdomen, chest, diabetes specialist"
+                       imageUrl="/placeholder.svg?key=ko6dm"
+                     />
+                     <DoctorCard
+                       name="Dr. Anisha Shrivastava"
+                       qualifications="M.B.B.S., M.D. Physician, MPH (USA)"
+                       specialty="M.B.B.S., D.Fam. Medicine"
+                       imageUrl="/placeholder.svg?key=ne3oy"
+                     />
+                     <DoctorCard
+                       name="Dr. Tripurari Pandey"
+                       qualifications="M.B.B.S., M.S., M.Ch. (Neuro Surgeon)"
+                       specialty="Brain, epilepsy, seizures, spinal, muscular & nerve specialist"
+                       imageUrl="/placeholder.svg?key=ne3oy"
+                     />
+                     <DoctorCard
+                       name="Dr. Prashant Rajan Gupta"
+                       qualifications="M.B.B.S., M.S., M.Ch. (Urology)"
+                       specialty="General & laparoscopic urology surgeon"
+                       imageUrl="/placeholder.svg?key=8vdqg"
+                     />
+                     <DoctorCard
+                       name="Dr. Akil Ahmad Ansari & Dr. V.B Singh"
+                       qualifications="M.B.B.S., M.S. (General & Laparoscopic Surgeon)"
+                       specialty="General and laparoscopic surgeon"
+                       imageUrl="/placeholder.svg?key=za17p"
+                     />
+                     <DoctorCard
+                       name="Dr. Prashant Singh"
+                       qualifications="M.B.B.S., M.D. (Chest)"
+                       specialty="Heart, abdomen, chest, diabetes, allergy & asthma specialist"
+                       imageUrl="/placeholder.svg?key=qytxd"
+                     />
+                     <DoctorCard
+                       name="Dr. Manish Tiwari"
+                       qualifications="M.B.B.S., M.S. (Orthopedics)"
+                       specialty="Spine and bone joint specialist"
+                       imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20male%205"
+                     />
+                     <DoctorCard
+                       name="Dr. Deepak Tiwari"
+                       qualifications="D.M. (Cardiology), Interventional Cardiologist"
+                       specialty="Cardiologist"
+                       imageUrl="/placeholder.svg?height=300&width=300&query=doctor%20female%202"
+                     />
           </div>
 
           <div className="mt-6 text-center sm:mt-8">
