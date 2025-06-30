@@ -4,7 +4,7 @@ import ServiceCard from "@/components/service-card"
 
 export default function ServicesSection() {
   return (
-    <section className="w-full py-8 md:py-12 lg:py-20 ">
+    <section className="w-full py-8 md:py-12 lg:py-20 bg-yellow-100">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mb-6 text-center sm:mb-8 lg:mb-10">
           <h2 className="text-xl font-bold tracking-tighter text-gray-900 sm:text-2xl md:text-3xl">Our Services</h2>
@@ -46,15 +46,8 @@ export default function ServicesSection() {
                        image="/privateRoom.jpg"
           />
           <ServiceCard
-                       title="General Ward"
-            description="Department Overview
-                          Clearly defined role and responsibilities within the organization.
-                          Aligned with institutional goals and service standards.
-                          Core Functions & Services
-                          Provides essential services related to its area of expertise.
-                          Supports other departments through collaboration and shared resources.
-                          Operates with efficiency, accuracy, and patient/customer-centric focus.
-                          Team Structure"
+                       title="ICU Ward"
+            description="Our ICU ward is equipped with advanced life-support systems and a dedicated team of specialists, providing round-the-clock critical care for patients in need of intensive monitoring and treatment."
             image="/genral.JPG"
           />
           <ServiceCard

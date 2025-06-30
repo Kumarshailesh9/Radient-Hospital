@@ -7,7 +7,7 @@ export default function InsuranceLogos() {
   const pendingLogos = Array.from({ length: 7 }, (_, i) => `/images/logos/logo${i + 5}.png`);
 
   return (
-    <section className="py-10" style={{ backgroundColor: 'powderblue' }}>
+    <section className="py-10 bg-yellow-100">
       <div className="max-w-6xl mx-auto px-4">
         {/* TPA Information */}
         <div className="max-w-4xl mx-auto mb-12 text-center text-gray-800">

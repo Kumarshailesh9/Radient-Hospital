@@ -69,7 +69,7 @@ export default function Header() {
           scrolled ? "opacity-0 translate-y-[-20px]" : "opacity-100"
         }`}
       >
-        <div className="container mx-auto flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-2 py-1 px-4">
+        <div className="container mx-auto flex flex-col sm:flex-row justify-center sm:justify-between bg-orange-200 items-center gap-2 py-1 px-4">
           <p className="font-medium"><Link href="/doctors">Find a Doctor</Link></p>
           <Link href="https://wa.me/6389021255"  target="_blank" rel="noopener noreferrer">
             <p className="font-medium flex items-center gap-2">
@@ -82,7 +82,7 @@ export default function Header() {
       </div>
 
       {/* Main header */}
-      <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 shadow-md dark:border-gray-800">
+      <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gradient-to-l from-yellow-200 via-orange-300 to-yellow-900 shadow-md dark:border-gray-800">
         <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:h-18 md:px-6 lg:h-20">
           <div className="flex items-center flex-1 md:flex-none">
             <Link href="/" className="flex items-center group">
@@ -102,7 +102,7 @@ export default function Header() {
               <Link
                 key={index}
                 href={item.href}
-                className="text-xs font-medium text-blue-100 transition-colors duration-200 hover:text-white lg:text-sm"
+                className="text-xs font-medium text-blue-900 transition-colors duration-200 hover:text-black lg:text-sm"
               >
                 {translate(item.english, item.hindi)}
               </Link>

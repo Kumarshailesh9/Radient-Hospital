@@ -6,10 +6,10 @@ export default function DoctorsPage() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 py-16 md:py-24">
+      <section className="w-full bg-gradient-to-r bg-yellow-150 bg-yellow-100 to-yellow-150 py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
-          <h1 className="text-center text-3xl font-bold text-white md:text-4xl lg:text-5xl">Our Expert Doctors</h1>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-blue-100 md:text-lg">
+          <h1 className="text-center text-3xl font-bold  md:text-4xl lg:text-5xl">Our Expert Doctors</h1>
+          <p className="mx-auto mt-4 max-w-2xl text-center text-blue-400 md:text-lg">
             Meet our team of highly qualified specialists dedicated to providing exceptional healthcare in Gorakhpur
           </p>
         </div>
@@ -44,7 +44,7 @@ export default function DoctorsPage() {
               name="Dr. Anisha Shrivastava"
               qualifications="M.B.B.S., M.D. Physician, MPH (USA)"
               specialty="M.B.B.S., D.Fam. Medicine"
-              imageUrl="/placeholder.svg?key=ne3oy"
+              imageUrl="/placeholder.svg?key=ko6dm"
             />
             <DoctorCard
               name="Dr. Tripurari Pandey"

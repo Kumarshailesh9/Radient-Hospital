@@ -11,20 +11,22 @@ import StatCard from "@/components/stat-card"
 import ServicesSection from "@/components/services-section"
 import Footer from "./footer/page"
 import InsuranceLogos from "@/components/InsuranceLogos"
+import ReviewSection from "@/components/ReviewSection"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex min-h-screen flex-col items-center ">
     
 
       {/* Hero Section */}
-      <section className="w-full bg-gradient-to-r from-blue-50 to-blue-100 py-8 md:py-12 lg:py-20 dark:bg-gradient-to-r dark:from-gray-900 dark:to-gray-800 dark:text-white">
+      <section className="w-full  py-5 md:py-12 lg:py-20 dark:bg-gradient-to-r dark:from-gray-900 dark:to-gray-800 dark:text-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-3 md:space-y-4">
-              <h1 className="text-xl font-bold tracking-tighter text-gray-900 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl dark:text-white">
-                Radiant Healthcare Hospital – The Best Multispecialty Hospital in Gorakhpur
-              </h1>
+              <h1 className="text-lg font-bold font-serif tracking-tighter text-gray-900 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl dark:text-white">
+                Radiant Healthcare Hospital  </h1>
+                <h3 className="font-bold"> The Best Multispecialty Hospital in Gorakhpur
+              </h3>
               <p className="text-xs text-gray-600 sm:text-sm md:text-base dark:text-gray-300">
                 Radiant Healthcare Hospital stands as the most trusted and advanced multispecialty hospital in
                 Gorakhpur, offering world-class medical care with cutting-edge technology and a team of highly
@@ -43,7 +45,7 @@ export default function Home() {
                 <Link href="/appointment" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outline"
-                    className="w-full border-blue-600 text-blue-600 hover:bg-blue-50 sm:w-auto dark:border-blue-400 dark:text-blue-400 dark:hover:bg-gray-800"
+                    className="w-full  bg-yellow-100 border-blue-600 text-blue-600 hover:bg-blue-50 sm:w-auto dark:border-blue-400 dark:text-blue-400 dark:hover:bg-gray-800"
                   >
                     {/* <MessageCircle className="mr-2 h-4 w-4" /> */}
                     Book Appointment
@@ -56,7 +58,7 @@ export default function Home() {
                 <Link href="https://wa.me/6389021255" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outline"
-                    className="w-full border-blue-600 text-blue-600 hover:bg-blue-50 sm:w-auto dark:border-blue-400 dark:text-blue-400 dark:hover:bg-gray-800"
+                    className="w-full bg-yellow-100 border-blue-600 text-blue-600 hover:bg-blue-50 sm:w-auto dark:border-blue-400 dark:text-blue-400 dark:hover:bg-gray-800"
                   >
                     <MessageCircle className="mr-2 h-4 w-4" />
                     Chat on WhatsApp
@@ -219,13 +221,14 @@ export default function Home() {
           </div> */}
 
           {/* Stats */}
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:mt-8 md:mt-10 lg:mt-16 md:gap-4">
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:mt-8 md:mt-10 lg:mt-16 md:gap-4 ">
             <StatCard value="50+" label="Experienced Doctors" />
             <StatCard value="25+" label="Medical Specialties" />
           </div>
          
         </div>
       </section>
+      <ReviewSection/>
 
       {/* Footer */}
       <Footer/>

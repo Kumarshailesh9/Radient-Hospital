@@ -63,12 +63,12 @@ export default function AppointmentPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-50">
-      <section className="w-full bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 py-16 md:py-24">
+      <section className="w-full bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-100 py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+          <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl">
             Book Your Appointment with Radiant Healthcare Hospital
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-blue-100 md:text-lg">
+          <p className="mx-auto mt-4 max-w-2xl  md:text-lg">
             Schedule a consultation with our healthcare professionals at your convenience
           </p>
         </div>

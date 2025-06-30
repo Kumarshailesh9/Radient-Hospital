@@ -11,7 +11,7 @@ interface DoctorCardProps {
 
 export default function DoctorCard({ name, qualifications, specialty }: DoctorCardProps) {
   return (
-    <Card className="overflow-hidden transition-all hover:shadow-lg h-full">
+    <Card className="overflow-hidden transition-all hover:shadow-lg h-full bg-yellow-100">
       {/* <div className="relative h-40 w-full sm:h-48 md:h-56">
         <Image
           src={imageUrl || "/placeholder.svg?height=300&width=300&query=doctor"}
@@ -24,7 +24,7 @@ export default function DoctorCard({ name, qualifications, specialty }: DoctorCa
       <CardContent className="p-3 text-center sm:p-4 md:p-6">
         <h3 className="mb-1 text-sm font-bold sm:text-base md:text-lg">{name}</h3>
         <p className="mb-1 text-xs text-gray-600">{qualifications}</p>
-        <p className="mb-3 text-blue-600 text-xs sm:text-sm line-clamp-2">{specialty}</p>
+        <p className="mb-3 text-blue-600 text-xs  sm:text-sm line-clamp-2">{specialty}</p>
       </CardContent>
     </Card>
   )
