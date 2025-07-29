@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Head from 'next/head'
 import { Button } from "@/components/ui/button"
 import { ChevronRight,  MessageCircle } from "lucide-react"
 import Link from "next/link"
@@ -17,9 +16,6 @@ import ReviewSection from "@/components/ReviewSection"
 export default function Home() {
   return (
     <>
-    <Head>
-        <meta name="facebook-domain-verification" content="hkkmv4ivarc5gruntlf6urkbm0g0p0" />
-      </Head>
       <main className="flex min-h-screen flex-col items-center ">
       {/* Hero Section */}
       <section className="w-full  py-5 md:py-12 lg:py-20 dark:bg-gradient-to-r dark:from-gray-900 dark:to-gray-800 dark:text-white">
